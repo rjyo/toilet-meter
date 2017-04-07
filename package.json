@@ -1,7 +1,7 @@
 {
-  "name": "toilet-leds",
+  "name": "toilet-meter",
   "version": "0.1.0",
-  "description": "Super toilet leds",
+  "description": "A dashboard to easy your pain when finding the toilet is occupied. (Just stay on your seat before it's available!)",
   "main": "client/index.js",
   "scripts": {
     "test": "",
@@ -18,6 +18,10 @@
       "browser"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjyo/toilet-meter.git"
+  },
   "dependencies": {
     "babel-runtime": "^6.18.0",
     "moment": "^2.18.1",
@@ -32,27 +36,27 @@
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.16.0",
     "babel-loader": "^6.2.4",
-    "babel-preset-vue-app": "^0.4.0",
+    "babel-preset-vue-app": "^1.1.1",
     "chalk": "^1.1.3",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.23.1",
-    "cross-env": "^2.0.0",
+    "css-loader": "^0.28",
+    "cross-env": "^4.0.0",
     "xo": "^0.18.0",
     "eslint-config-vue": "latest",
     "eslint-plugin-vue": "latest",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
-    "file-loader": "^0.9.0",
+    "file-loader": "^0.11.1",
     "friendly-errors-webpack-plugin": "^1.1.2",
     "html-webpack-plugin": "^2.22.0",
     "raw-loader": "^0.5.1",
     "offline-plugin": "^4.5.3",
-    "postcss-loader": "^0.9.1",
+    "postcss-loader": "^1.3.3",
     "postcss-nested": "^1.0.0",
-    "style-loader": "^0.13.1",
+    "style-loader": "^0.16.1",
     "vue-loader": "^11.0.0",
     "vue-template-compiler": "^2.2.0",
-    "webpack": "2.2.0",
+    "webpack": "^2.3.0",
     "webpack-dev-middleware": "^1.8.1",
     "webpack-hot-middleware": "^2.12.2"
   }
