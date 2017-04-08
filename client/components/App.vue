@@ -39,18 +39,19 @@ body {
   padding: 0;
   left: 0;
   top: 0;
-  background: url(../assets/bg5.jpg) cover no-repeat;
+  background-image: url(../assets/bg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: background 0.5s ease-in-out;
 
-  .bg1 { background-image: url(../assets/bg1.jpg); }
-  .bg2 { background-image: url(../assets/bg2.jpg); }
-  .bg3 { background-image: url(../assets/bg3.jpg); }
-  .bg4 { background-image: url(../assets/bg4.jpg); }
-  .bg5 { background-image: url(../assets/bg5.jpg); }
-  .bg6 { background-image: url(../assets/bg6.jpg); }
+  &.bg1 { background-image: url(../assets/bg1.jpg); }
+  &.bg2 { background-image: url(../assets/bg2.jpg); }
+  &.bg3 { background-image: url(../assets/bg3.jpg); }
+  &.bg4 { background-image: url(../assets/bg4.jpg); }
+  &.bg5 { background-image: url(../assets/bg5.jpg); }
+  &.bg6 { background-image: url(../assets/bg6.jpg); }
 }
 h1 {
   text-align: center;
 }
-
 </style>

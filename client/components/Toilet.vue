@@ -35,11 +35,11 @@ export default {
 
     setInterval(() => {
       this.fromNow = moment(this.updatedAt).fromNow()
-      client.publish('cmnd/sonoff/status', '8')
-    }, 1000)
+      client.publish('cmnd/sonoff-sensor/status', '8')
+    }, 500)
 
     const client = mqtt.connect('mqtt://192.168.1.20:9090')
-    const topicStatus = 'stat/sonoff/STATUS'
+    const topicStatus = 'stat/sonoff-sensor/STATUS'
 
     client.on('connect', () => {
       client.subscribe(topicStatus)
@@ -70,6 +70,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.93);
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20);
   border-radius: 5px;
+  text-align: center;
 }
 
 .toilet-wrapper img {
